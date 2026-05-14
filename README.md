@@ -20,6 +20,8 @@ Project ini membangun pipeline yang **transparan dan reproducible** — mendokum
 trade-off setiap sumber data, bukan menyembunyikannya.
 
 ---
+## Live Demo
+🔗 [Indonesia Base Map Explorer](https://spatial-base-system-djchhbqwfuuaxisszefkwp.streamlit.app)
 
 ## Quick Start
 
