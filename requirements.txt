@@ -1,7 +1,6 @@
 geopandas
+pyogrio
 shapely
-fiona
-pyproj
 pandas
 numpy
 folium

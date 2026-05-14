@@ -3,6 +3,8 @@ sys.path.insert(0, '../src')
 
 import streamlit as st
 import geopandas as gpd
+import pyogrio
+gpd.options.io_engine = "pyogrio"
 import folium
 from streamlit_folium import folium_static
 from pathlib import Path
