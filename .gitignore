@@ -1,0 +1,82 @@
+# ─── Data Files ───────────────────────────────────────────────────────────────
+data/raw/
+data/spatial/raw/
+
+# Izinkan sample data kecil
+!data/sample/
+!data/spatial/processed/*.gpkg
+
+# File besar (shapefile GADM raw)
+*.shp
+*.dbf
+*.shx
+*.prj
+*.sbn
+*.sbx
+*.cpg
+*.qmd
+
+# Tapi izinkan file processed yang kecil
+!data/spatial/processed/
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+# Hapus output cell sebelum commit (pakai nbstripout)
+# pip install nbstripout && nbstripout --install
+
+# ─── QGIS ─────────────────────────────────────────────────────────────────────
+*.qgd
+*.qgs~
+qgis/*.bak
+
+# ─── Credentials & Config ────────────────────────────────────────────────────
+.env
+*.env
+config.ini
+secrets.py
+*_secret*
+*_credentials*
+*.pem
+*.key
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─── Output (jangan commit output besar) ─────────────────────────────────────
+# Izinkan screenshots kecil
+assets/screenshots/*.html
+# Tapi keep PNG
+!assets/screenshots/*.png
+!assets/*.gif

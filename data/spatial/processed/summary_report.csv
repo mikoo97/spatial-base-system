@@ -1,0 +1,4 @@
+Level,Features,CRS,Columns,Invalid Geom,Has Area
+provinsi,34,4326,7,0,True
+kabupaten,502,4326,9,0,True
+kecamatan,6695,4326,9,0,True

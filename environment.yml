@@ -1,0 +1,27 @@
+name: sei-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - geopandas=0.14.4
+  - shapely=2.0.4
+  - fiona=1.9.6
+  - pyproj=3.6.1
+  - pandas=2.2.2
+  - numpy=1.26.4
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  - folium=0.16.0
+  - streamlit=1.35.0
+  - jupyter=1.0.0
+  - notebook=7.2.0
+  - requests=2.31.0
+  - tqdm=4.66.4
+  - openpyxl=3.1.2
+  - pip
+  - pip:
+    - mapclassify==2.6.1
+    - contextily==1.6.0
+    - geoplot==0.5.1
+    - streamlit-folium==0.20.0
